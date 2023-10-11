@@ -31,7 +31,6 @@ const Inputs: React.FC = () => {
   };
 
 const saveCard = () => {
-  console.log(id)
   mode 
     ? dispatch({type: EDIT_CARD, payload: {text, price, id}}) 
     : dispatch({type: ADD_CARD, payload: {text, price, id: posts.length}}); 

@@ -17,6 +17,10 @@ export interface editReduser {
   editReduser: boolean
 }
 
+export interface filter {
+  filter: string;
+}
+
 export interface cardsReduser {
   cardsReduser: CardType[];
 }

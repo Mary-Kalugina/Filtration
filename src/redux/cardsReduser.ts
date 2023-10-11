@@ -14,7 +14,7 @@ export const cardsReduser = (state = defaultState, action: {type: string, payloa
             return card;
           });
         case 'DELETE_CARD': 
-          return [...state.filter((card) => card.id !== action.payload.id)]    
+          return [...state.filter((card) => card.id !== action.payload.id)];
         default:
           return state;
     }
